@@ -2,8 +2,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <div id="chorei">
   <title>AFC</title>
-<form action="https://www.w3docs.com/">
-         <button type="submit" class="loginhome">Login</button>
+<form action="">
+         <input type="submit" class="loginhome" value="Login">
   <h1> aa </h1>
   <style>
     .loginhome{
@@ -22,22 +22,40 @@
   color: black;
   font-weight: bold;
 }
+#loginbs{
+color:red;
+}
 #chorei{
   position: relative;
   background: #292727;
   border: 5px solid #292727;
-  color: #292727
+  color: #292727;
+}
+#zona_formulario{
+	font-family: system-ui;
+	
 }
 </style>
   </div>
   
   <div id="zona_formulario">
   <h3> Login <h3>
-  <form id="formulario">
+  <form name="formulary"id="formulario">
 	<label id="login_email"> Email </label>
-	<input type="text" id="login_email">
+	<input type="text" id="login_email" name="login_email">
 	<label id="login_password"> Password </label>
-	<input type="text" id="login_password">
+	<input type="text" id="login_password" name="login_password">
+	<input type="submit" value="Submit" onclick="return valida()"> 
   </form>
+  <div id="loginBs"></div>
+  <script type="text/JavaScript"> 
+	function valida(){
+	document.getElementById("formulario").innerHTMLss
+	var email=formulary.login_email.value
+	var password=formulary.login_password.value
+	
+	loginBs.innerHTML(email+password);
+	}
+  </script>
   </body>
   
