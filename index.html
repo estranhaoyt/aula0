@@ -1,61 +1,55 @@
 <body>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <div id="chorei">
+ 
   <title>AFC</title>
 <form action="">
          <input type="submit" class="loginhome" value="Login">
-  <h1> aa </h1>
-  <style>
+	 <div class="fernando">	 </div>
+ </div>
+   <style>
     .loginhome{
   position: absolute;
   left:auto;
   right:25px;
   top:15px;
-
   height: 45px;
   width: 85px;
-  background-color:green;
-  border: solid green;
-  border-radius: 5px;
-  font-family:system-ui;
+  background-color:#292727;
+  border: solid #292727;
+  border-radius: 15px;
+  font-family:"Montserrat",Arial, sans-serif;
     font-size: 16px;
-  color: black;
-  font-weight: bold;
+  color: white;
+     padding: 10px 20px;
+      text-decoration: none;
+      float: right;
+	   overflow: hidden;
+      box-shadow: 0 0 0 4px darkgreen;
 }
-#loginbs{
-color:red;
-}
+
 #chorei{
-  position: relative;
+  position: fixed;
   background: #292727;
-  border: 5px solid #292727;
+  box-sizing: border-box;
   color: #292727;
+  border-radius:20px;
+  left:50%;
+  width: 80%;
+  height: 80px;
+  padding: 10px;
+  top: 5px;
+  transform: translateX(-50%);
+  box-sizing: border-box;
+  z-index: 9999;
+box-shadow:  20px 20px 50px grey;
 }
-#zona_formulario{
-	font-family: system-ui;
-	
+.fernando{
+	position:absolute;
+	border-left: 2px solid white;
+	left:50%;
+	top:5px;
 }
 </style>
-  </div>
-  
-  <div id="zona_formulario">
-  <h3> Login <h3>
-  <form name="formulary"id="formulario">
-	<label id="login_email"> Email </label>
-	<input type="text" id="login_email" name="login_email">
-	<label id="login_password"> Password </label>
-	<input type="text" id="login_password" name="login_password">
-	<input type="submit" value="Submit" onclick="return valida()"> 
-  </form>
-  <div id="loginBs"></div>
-  <script type="text/JavaScript"> 
-	function valida(){
-	document.getElementById("formulario").innerHTMLss
-	var email=formulary.login_email.value
-	var password=formulary.login_password.value
-	
-	loginBs.innerHTML(email+password);
-	}
-  </script>
   </body>
   
