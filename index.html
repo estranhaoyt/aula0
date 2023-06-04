@@ -1,55 +1,122 @@
+<html>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <body>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <div id="chorei">
- 
-  <title>AFC</title>
-<form action="">
-         <input type="submit" class="loginhome" value="Login">
-	 <div class="fernando">	 </div>
+
+<section class="navbar">
+<a class="logo" href="index.html"><img src="./images/adadadaa.png" width="200px" height="auto" alt=""></a>
+<nav>
+  <ul class="nav__links">
+    <li><a href="" class="login">LOGIN</a></li>
+  </ul>
+</nav>
+</section>
+<section>
+  <a class="imagem"><img src="./images/package.png" width="auto" height="850px" alt=""></a>
+ <div class="label"> 
+
+  <label class="label">Encontrar a minha encomenda</label>
+</div>
+ <div class="trackingdiv">
+
+  <form action="">
+    <input type="text" class="tracktext" placeholder="Introduza o tracking ID"> 
+  </form>
  </div>
+</section>
    <style>
-    .loginhome{
-  position: absolute;
-  left:auto;
-  right:25px;
-  top:15px;
-  height: 45px;
-  width: 85px;
-  background-color:#292727;
-  border: solid #292727;
-  border-radius: 15px;
-  font-family:"Montserrat",Arial, sans-serif;
-    font-size: 16px;
-  color: white;
-     padding: 10px 20px;
-      text-decoration: none;
-      float: right;
-	   overflow: hidden;
-      box-shadow: 0 0 0 4px darkgreen;
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto',arial,sans-serif;
+    font-weight: 100;
+    z-index: 2;
+
+}
+.navbar {
+  background-color: #292727;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    top: 0;
+    transition: top 0.3s;
+    z-index: 2;
+  }
+
+
+  .nav__links a {
+    color: #edf0f1;
+    text-decoration: none;
+    z-index: 2;
+  }
+
+  .nav__links .login {
+    font-size: 20px;
+  }
+
+  .nav__links {
+    list-style: none;
+    display: flex;
+    z-index: 2;
+  }
+  
+  .nav__links li a:hover {
+    transition: color 0.3s ease 0s;
+    color: #317500;
+    z-index: 2;
+  }
+
+.logo {
+  margin-right: 87%;
 }
 
-#chorei{
-  position: fixed;
-  background: #292727;
-  box-sizing: border-box;
-  color: #292727;
-  border-radius:20px;
-  left:50%;
-  width: 80%;
-  height: 80px;
-  padding: 10px;
-  top: 5px;
-  transform: translateX(-50%);
-  box-sizing: border-box;
-  z-index: 9999;
-box-shadow:  20px 20px 50px grey;
+.trackingdiv{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
 }
-.fernando{
-	position:absolute;
-	border-left: 2px solid white;
-	left:50%;
-	top:5px;
+
+.tracktext{
+  font-size: 30px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px; /* Adjust the width as needed */
+  padding: 20px 20px;
+}
+.label{
+  margin-top: 140px;
+  margin-bottom: 0px;
+  margin-left:18.5%;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+  z-index: 2;
+  font-weight: bold;
+  color: white;
+}
+.imagem{
+  margin-top: 284px;
+  position: absolute;
+  margin-left:50%;
+  margin-right: auto;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  height: auto;
+  opacity: 0.8;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
 }
 </style>
   </body>
-  
+  </html>

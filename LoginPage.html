@@ -1,23 +1,5 @@
-<div id="zona_formulario">
-  <h3> Login <h3>
-  <form name="formulary"id="formulario">
-	<label id="login_email"> Email </label>
-	<input type="text" id="login_email" name="login_email">
-	<label id="login_password"> Password </label>
-	<input type="text" id="login_password" name="login_password">
-	<input type="submit" value="Submit" onclick="return valida()"> 
-  </form>
-  </div>
-  <div id="loginBs"></div>
-<script type="text/JavaScript"> 
-	function valida(){
-	document.getElementById("formulario").innerHTMLss
-	var email=formulary.login_email.value
-	var password=formulary.login_password.value
-	
-	loginBs.innerHTML(email+password);
-	}
-</script>
+
+
 
   <style>
     /* CSS for the login/sign-up page */
@@ -98,16 +80,3 @@
       </div>
     </form>
   </div>
-
-  <script>
-    // JavaScript code for form validation
-    document.getElementById("loginForm").addEventListener("submit", function(event) {
-      var username = document.getElementById("username").value;
-      var password = document.getElementById("password").value;
-
-      if (!username || !password) {
-        event.preventDefault();
-        document.querySelector(".message").textContent = "Please fill in all fields.";
-      }
-    });
-  </script>
