@@ -90,6 +90,14 @@ body{
   filter: blur(3px);
   -webkit-filter: blur(3px);
 }
+footer{
+  background-color: #333131;
+  z-index: 0;
+  color: white;
+  text-align: center;
+  margin-top: 499px;
+  margin-bottom: 50px;
+}
 @media only screen and (max-width: 768px) {
       .logo {
         margin-right: 18px;
@@ -108,3 +116,4 @@ body{
         max-width: 400px;
       }
     }
+    

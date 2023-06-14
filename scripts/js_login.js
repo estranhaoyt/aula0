@@ -19,7 +19,7 @@ function validateEmail(email) {
       return;
     }
   
-    window.location.href = "./ClientPage.html";
+    window.location.href = "./ArmazemPage.html";
 
     emailInput.value = '';
     passwordInput.value = '';
