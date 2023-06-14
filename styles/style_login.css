@@ -1,0 +1,133 @@
+body {
+  background-color: #292727;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2f5a2f;
+}
+
+.login-form-group {
+  margin-bottom: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+  color: #ffffff;
+}
+
+.login-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-form-group input {
+  width: 100%;
+  padding: 13px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-form-group button {
+  width: 200px;
+  padding: 10px;
+  background-color: #2f5a2f;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 375px;
+  margin-right: auto;
+  margin-top: 2px;
+  text-align: center;
+  justify-content: center;
+}
+
+.login-form-group button:hover {
+  background-color: #264927;
+}
+.su-form-group {
+  margin-bottom: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+  color: #ffffff;
+}
+
+.su-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.su-form-group input {
+  width: 100%;
+  padding: 13px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.su-form-group button {
+  width: 200px;
+  padding: 10px;
+  background-color: #2f5a2f;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 375px;
+  margin-right: auto;
+  margin-top: 5px;
+  text-align: center;
+  justify-content: center;
+}
+
+.su-form-group button:hover {
+  background-color: #264927;
+}
+
+.su-selectform-group{
+  color:white;
+  justify-content: center;
+  font-size: 16px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 90%;
+  font-weight: bold;
+
+}
+.su-selectform-group .escolha{
+  background-color: #333131;
+  border: 2px solid #2f5a2f;
+  color: white;
+  border-radius: 9px;
+  font-size: 16px;
+}
+.escolha:focus{
+  border: 2px solid #2f5a2f;
+}
+.su-selectform-group .escolha .opt:checked{
+  border: 2px solid #2f5a2f;
+  cursor: pointer;
+}
+.mostrarpasswordtext{
+  margin-top: 15px;
+}
+#mostrarpassword{
+  margin-top: -15px;
+  margin-left: -100px;
+  transform: scale(1.5);
+}
+#mostrarpassword-su{
+  margin-top: -15px;
+  margin-left: -100px;
+  transform: scale(1.5);
+}
+
